@@ -1,0 +1,121 @@
+header{
+  background-color: rgba(137, 43, 226, 0.151);
+padding: 20px 0;
+
+}
+
+.caja{
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+/* esto es para formato horizontal de la pagina viene display:block; por default
+-margin: top 0(ariba) 0(derecha) 0(abajo) 15px(isquierda);
+*/
+ nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+ }
+
+ nav a{
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+ }
+/* cambiar color de los elemntos  */
+ nav a:hover{
+  color: brown;
+  /* para el rallado */
+  text-decoration:underline ;
+
+ }
+
+ /*  Centralizando productos  */
+ /*  para los items de la lista  */
+/* */
+ 
+ .productos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.productos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  /* background: rgba(216, 112, 147, 0.171); */
+  margin: 0 1.5%;
+  /* espaciamento */
+  padding: 30px 20px;
+  /* limit de espacio de ancho */
+  box-sizing: border-box;
+  /* codigo simplificado */
+  border: 2px solid black;
+  /* creando el border  */
+  /* border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  // redondeo del border*/
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 50px; */
+  /* simplificando el codigo */
+  /* border-radius: 10px 10px 10px 10px; */
+  /*  si quiere todo iguales  */
+  border-radius: 10px;
+
+
+ }
+ /* cambia border cuando paso mouse arriba */
+.productos li:hover{
+  border-color: rgb(33, 196, 12);
+}
+
+.productos li:active{
+  border-color: rgb(46, 8, 148);
+ 
+}
+/* para efecto cuando posiciono el mouse */
+.productos li:hover h2{
+   font-size: 33px;
+}
+ 
+ /* stilizando l */
+
+.productos h2{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.producto-descripcion{
+  font-size: 18px;
+}
+
+.producto-precio{
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  background: url(./sets/bg.jpg);
+  padding: 40px;
+}
+
+.copyright{
+  color: #cccccc;
+  font-size: 13px;
+  margin: 20px;
+}
