@@ -119,3 +119,76 @@ footer{
   font-size: 13px;
   margin: 20px;
 }
+
+/* estilos de mi pagina de (contacto) */
+/* centralizar elementos  */
+/* (DISPLAY-BLOCK,= Ocupa 100% de la pagina)
+(DISPLAY-INLINE) = es cuando ocupa solo el espacio de su contenido en la pagina
+*/
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+/* colonando en formato VERTICAL   */
+
+form{
+  margin: 40px 0;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.input-padron{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+
+} 
+.checkbox{
+  margin: 20px 0;
+}
+/* creamos un selector de nuestra etiqueta p */
+/* p{
+  color: red;
+} */
+
+.enviar{
+  width: 50%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: wheat;
+  background: orange;
+  border:none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+/* <!-- clase 07°- Aumentar con la propriedad (trnasform) --> */
+
+/* para hacer giros en los elemntos 
+ transform: scale(1.2)  rotate(700deg); */
+
+/* espaciamento esterno a labla */
+table{
+  margin: 40px 40px;
+}
+
+thead{
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+td, rh{
+  border: 1px solid black;
+  padding: 5px 10px;
+}

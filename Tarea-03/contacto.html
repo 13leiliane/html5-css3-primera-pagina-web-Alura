@@ -11,7 +11,7 @@
 <body>
   <header>
     <div class="caja">
-    <h1><img src="../Tarea-02/sets/logo.png" alt=""></h1>
+    <h1><img src="../Tarea-02/sets/logo.png" alt="Logo de la Barbería Alura"></h1>
   <nav>
      <ul>
     <li><a href="../Tarea-01/index.html">Home</a> </li>
@@ -21,11 +21,94 @@
   </nav>
 </div>
   </header>
+  <main>
+    <form>
+      <label for="nombreapellido">Nombre y Apellido</label>
+      <input type="text" id="nombreapellido" class="input-padron" required>
+
+     <label for="correoelectronico">Correo Electrónico</label>
+     <input type="email" id="correoelectronico" class="input-padron" equired placeholder="emal@dominio.com">
+
+     <label for="telefono">Teléfono</label>
+     <input type="telefono" id="telefono" class="input-padron" equired placeholder="(xx) xxxx-xxxx">
+
+     <label for="mensaje">Mensaje</label>
+     <textarea cols="70" rows="10" id="mensaje" class="input-padron" equired></textarea>
+
+     <fieldset>
+
+      <legend>¿Como te gustaria que lo contactemos?</legend>
+
+     <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+     
+     
+     <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono
+     
+    </label>
+  
+     <label for="radio-whatsapp"><input type="radio" name="contacto" value="whasapp" id="radio-whatsapp" checked>WhatsApp
+     
+    </label>
+     </fieldset>
+
+     <fieldset>
+
+      <select>
+        <legend>¿En cuál horario prefiere ser atendendo?</legend>
+   
+      <option>Mañana</option>
+      <option>Tarde</option>
+      <option>Noche</option>
+     </select>
+
+     </fieldset>
+     <label class="checkbox
+     "><input type="checkbox" checked> ¿Legustaria recibir novedadesde la Barbéria Alura?</label>
+
+
+     <input type="submit" value="Enviar Fórmulario" class="enviar">
+
+
+    </form>
+
+    <table>
+      <thead>
+<tr>
+        <th>Día</th>
+        <th>Horario</th>
+      </tr>
+        
+      </thead>
+      <tbody>
+
+      <tr>
+        <td>Lunes</td>
+        <td>08h - 20h</td>
+      </tr>
+
+      <tr>
+        <td>Miércoles</td>
+        <td>08h - 20h</td>
+      </tr>
+
+      <tr>
+        <td>Viernes</td>
+        <td>08h - 20h</td>
+      </tr>
+
+      </tbody>
+      
+
+
+    </table>
+
+
+  </main>
   <footer>
-    <img src="../Tarea-02/sets/logo-blanco.png ">
+    <img src="../Tarea-02/sets/logo-blanco.png " alt="Logo de la Barbería Alura">
     <p class="copyright">&copy Copyright Barbería Alura - 2023</p>
   </footer>
-  <!-- unicode-table.com/es/00A9 = simbolo unicody-->
  
 </body>
 </html>
+
